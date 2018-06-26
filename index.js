@@ -5,13 +5,14 @@ class Square {
 // initiate all of the variable of class square
 // and change the color
 
+  
   constructor(identification) {
     this.color = '#FFFFFF'; // set default to white
     this.id = identification;
     this.time = 0;
   }
 
-// check if the square has changed in color in the past 2000 ms
+  // check if the square has changed in color in the past 2000 ms
   ifMoreThanTwoSeconds() {
 
     var currentTime = Date.now();
